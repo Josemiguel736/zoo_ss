@@ -1,0 +1,4 @@
+REQUERIMENTS
+
+pytest==8.2.2
+simple_screen==0.1.16
