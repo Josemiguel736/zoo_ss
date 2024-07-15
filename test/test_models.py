@@ -26,6 +26,9 @@ def test_create_negative_age_ticket():
     with pytest.raises(ValueError):
         entrada=Entrada(-2)
    
+def test_create_centenary_age_ticket():
+    with pytest.raises(ValueError):
+        entrada=Entrada(100)
 
 
 def test_create_tickets_group():
