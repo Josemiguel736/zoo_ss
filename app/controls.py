@@ -25,9 +25,10 @@ class Zoo:
        if inp=="":
           seguir=self.vseguir.paint()
           if seguir.upper()=="N":
-            grupo=TiketsGroup()
+            self.grupo=TiketsGroup()
             self.vg=VistaGrupo(self.grupo,self.x,self.y)
             continue
+        
        
           if seguir.upper()=="S":
            break
